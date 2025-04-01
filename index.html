@@ -14,7 +14,7 @@
     <!-- Container principal -->
     <div class="container">
         <div class="header">
-            <h1>Chat N8N Demo - Framework01</h1>
+            <h1>Chat N8N Demo - Framework</h1>
             <p>Este é um exemplo de chat usando n8n como backend</p>
         </div>
         
@@ -26,14 +26,13 @@
         import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
         createChat({
-            webhookUrl: 'https://52lappyk.rcsrv.com/webhook/8e72a25a-2aa0-4add-9fc3-298454d0c738/chat', // Sua URL do webhook n8n.cloud
+            webhookUrl: 'https://52lappyk.rcsrv.com/webhook/8e72a25a-2aa0-4add-9fc3-298454d0c738/chat',
             mode: 'hosted',
             showWelcomeScreen: true,
             defaultLanguage: 'pt',
             initialMessages: [
-                '👋 Olá! Bem-vindo ao Chat N8N Demo',
-                'Como posso ajudar você hoje?',
-                'Este é um exemplo de chat usando n8n como backend.'
+                'Hi there! 👋',
+                'My name is Nathan Webster. How can I assist you today?'
             ],
             i18n: {
                 pt: {
